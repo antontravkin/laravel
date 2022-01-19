@@ -5,14 +5,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/app.css">
+    <link rel="stylesheet" href="css/app.css">
     <title>@yield('title')</title>
 </head>
 
 <body>
     <nav>
         <ul>
-            <li>
+            <li class="m-5">
                 <a href="/">Главная</a>
             </li>
             <li>
@@ -26,5 +26,5 @@
 
     @yield('content')
 </body>
-
+<script src="/js/app.js"></script>
 </html>
