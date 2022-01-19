@@ -27,7 +27,9 @@
 <div class="chat">
     
     @foreach ($message as $el)
-        <li>{{$el->message}}</li>            
+        <li>
+            {{$el->message}}
+        </li>            
     @endforeach
 </div>
 

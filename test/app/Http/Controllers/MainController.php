@@ -30,6 +30,7 @@ class MainController extends Controller
         $message = new Message();
         $message->message = $request->input('message');
 
+
         $message->save();
 
         return redirect()->route('page2');
