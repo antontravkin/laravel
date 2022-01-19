@@ -1,0 +1,17 @@
+body {
+  background-color: #9fd6d8;
+  color: #492424;
+}
+
+a {
+  color: #004d50;
+  font-size: 20px;
+}
+
+a:hover {
+  color: #e67422;
+}
+
+a:active, a:visited {
+  color: black;
+}
