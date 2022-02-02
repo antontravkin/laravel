@@ -18,7 +18,7 @@
     
 
 <form action="check" method="post">
-    @csrf
+    
     <textarea name="message" id="message" cols="30" rows="10" style="resize: none"></textarea><br>
     <input type="submit" value="отправить">
 </form>
